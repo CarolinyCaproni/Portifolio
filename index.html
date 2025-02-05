@@ -7,6 +7,7 @@
     <meta name="author" content="Caroliny Caproni">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+	<link rel="stylesheet" href="./assets/css/styles.css">
     <title>Meu Perfil</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
     <!-- Cabeçalho da Página (header) -->
 		<header>
 
-            <div id="header_content">
+            <div id="header_content" class="flex">
 
                 <div id="titulo">
 
@@ -46,15 +47,16 @@
 		<!-- Seção Principal da Página (main) -->
 		<main>
 
-			 <section id="about">
+			 <section id="about" class="flex_start">
 
                 <h2>Sobre a Generation Brasil</h2>
 
-                <div id="conteudo">
+                <div id="conteudo" class="flex">
 
 					<img
 						src="./assets/img/Caroliny.jpg"
 						alt="Foto do criador desse conteudo"
+						class="img_profile"
 					/>
 
 					<article id="sobre_texto">
@@ -85,11 +87,11 @@
 
 			 </section>
 			 
-			 <section id="video">
+			 <section id="video" class="flex_start">
 
                 <h2>Meu vídeo favorito:</h2>
 
-				<div class="youtube">
+				<div class="youtube" class="flex">
 					<iframe
 						width="560"
 						height="315"
@@ -105,7 +107,7 @@
         </main>
 
 		<!-- Rodapé da Página (footer) -->
-		<footer>
+		<footer class="flex">
 
             <section id="redes_sociais">
 
